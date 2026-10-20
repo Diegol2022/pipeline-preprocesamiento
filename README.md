@@ -270,9 +270,9 @@ Valores imputados en train (cantidad de 1 por flag):
 total_bedrooms_era_null    ...
 
 Métricas en test:
-   MAE: 50670,4892
-  RMSE: 70059.1933
-    R2: 0.6254
+   MAE: ...
+  RMSE: ...
+    R2: ...
 
 Pipeline guardado en: models/pipeline_housing.joblib
 
@@ -347,9 +347,9 @@ Métricas sobre el conjunto de test (20 % de los datos, `random_state=42`):
 
 | Métrica | Valor |
 |---|---|
-| MAE | _completar_ |
-| RMSE | _completar_ |
-| R² | _completar_ |
+| MAE | _50670,4892_ |
+| RMSE | _70059,1933_ |
+| R² | _0,6254_ |
 
 La segunda parte de `main.py` demuestra que el pipeline exportado predice sin errores sobre datos crudos que incluyen un valor nulo (marcado con `total_bedrooms_era_null = 1`) y una categoría desconocida (`"DESERT"`).
 
