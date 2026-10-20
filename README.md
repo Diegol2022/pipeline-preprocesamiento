@@ -89,7 +89,6 @@ El módulo `src/eda.py` genera automáticamente las visualizaciones y reportes d
 
 ### Gráficos
 
-> Las imágenes se generan al ejecutar `python main.py`. Para que aparezcan acá en GitHub, subí la carpeta `reports/` junto con el resto del código.
 
 ![Distribuciones](reports/figures/01_distribuciones.png)
 ![Heatmap de correlaciones](reports/figures/02_heatmap_correlaciones.png)
@@ -271,9 +270,9 @@ Valores imputados en train (cantidad de 1 por flag):
 total_bedrooms_era_null    ...
 
 Métricas en test:
-   MAE: ...
-  RMSE: ...
-    R2: ...
+   MAE: 50670,4892
+  RMSE: 70059.1933
+    R2: 0.6254
 
 Pipeline guardado en: models/pipeline_housing.joblib
 
